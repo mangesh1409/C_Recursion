@@ -9,7 +9,7 @@ int LargeDigit(int iNo)
 	{
 		iDigit=iNo%10;
 		
-		if(iMax==9)
+		if(iDigit==9)
 		{
 			iNo=0;
 		} 
